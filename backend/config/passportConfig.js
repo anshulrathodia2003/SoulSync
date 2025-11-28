@@ -27,7 +27,7 @@ passport.use(new LocalStrategy(
 
 const opts = {
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
-    secretOrKey: "MananShreya" 
+    secretOrKey: "AnshulRathodia" 
   };
   
   passport.use(new JwtStrategy(opts, async (jwt_payload, done) => {
